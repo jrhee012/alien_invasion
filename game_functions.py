@@ -109,7 +109,7 @@ def check_bullet_alien_collision(ai_settings, screen, stats, sb, ship, aliens, b
 
 def get_number_aliens_x(ai_settings, alien_width):
     available_space_x = ai_settings.screen_width - 2 * alien_width
-    number_aliens_x = int(available_space_x / (2 * alien_width))
+    number_aliens_x = int(available_space_x / (2.5 * alien_width))
     return number_aliens_x
 
 def get_number_rows(ai_settings, ship_height, alien_height):
